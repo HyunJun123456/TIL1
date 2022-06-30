@@ -33,3 +33,5 @@ git pull
 
 git pull origin master
 : 원격 저장소의 내용을 master 브랜치로 가져온다는 의미인듯
+
+

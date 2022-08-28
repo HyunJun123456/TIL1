@@ -10,7 +10,7 @@
         document.firstElementChild.lastElementChild 
         console.log(document.constructor); 
         console.log(document.nodeName, document.nodeValue, document.nodeType); 
-        var element = document.children[0].children[1].firstElementChild;
+        var element = document.children[0].children[1].firstElementChild; //script를 먼저 읽어서 생기는 오류인듯
         console.log(element.constructor);
         console.log(element.nodeName, element.nodeValue, element.nodeType);
     </script>
